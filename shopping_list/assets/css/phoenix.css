@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+.start-page{
+  background-color: #2B2B2B;
+  color: white;
+  flex: 50%;
+}
+.body{
+  display: flex;
+}
+.top-header{
+  text-align: right;
+  orientation: landscape;
+  display: flex;
+  flex-direction: row;
+}
+.logo-header:hover{
+ cursor: pointer;
+}
+
+
+.top-ribbon-buttons{
+  min-width: 100px;
+  text-align: center;
+  font-size: 100%;
+  padding: 2px;
+  font-family: "Helvetica";
+  border-radius: 5px;
+  padding: 10px;
+  flex-direction: row;
+  float: right;
+}
+.top-ribbon-title{
+    min-width: 100px;
+  text-align: center;
+  font-size: 100%;
+  padding: 2px;
+  font-family: "Lucida Sans Unicode";
+  float: left;
+}
+.sign-up-button{
+  min-width: 100px;
+  background-color: #165c24;
+  color: #c9cfd1;
+}
+.sign-up-button:hover{
+  background-color: #418034;
+  color: #c9cfd1;
+  cursor: pointer;
+}
+.login-button{
+   background-color: #c9cfd1;
+}
+.login-button:hover{
+  background-color: white;
+  cursor: pointer;
+}
+.content{
+  padding-top: 40;
+}
