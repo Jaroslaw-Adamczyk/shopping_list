@@ -4,17 +4,16 @@
 .start-page{
   background-color: #2B2B2B;
   color: white;
-  flex: 50%;
-}
-.body{
   display: flex;
+  
 }
+
 .top-header{
-  text-align: right;
-  orientation: landscape;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
 }
+
 .logo-header:hover{
  cursor: pointer;
 }
@@ -27,18 +26,21 @@
   padding: 2px;
   font-family: "Helvetica";
   border-radius: 5px;
+  border-width: 0ch;
   padding: 10px;
-  flex-direction: row;
-  float: right;
+  gap: 5px;
+  
 }
 .top-ribbon-title{
-    min-width: 100px;
+  min-width: 100px;
   text-align: center;
   font-size: 100%;
   padding: 2px;
   font-family: "Lucida Sans Unicode";
   float: left;
+  gap: 5px;
 }
+
 .sign-up-button{
   min-width: 100px;
   background-color: #165c24;
